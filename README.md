@@ -1,3 +1,29 @@
+# dinov3
+
+[English](#english) | [简体中文](#简体中文)
+
+---
+
+## English
+
+Reference PyTorch implementation and models for DINOv3
+
+> This repository is a fork. For full documentation, see the upstream repository.
+
+[简体中文](#简体中文)
+
+---
+
+## 简体中文
+
+DINOv3 的 PyTorch 参考实现与模型。
+
+> 本项目为 fork，详细文档请以原仓库为准。
+
+[English](#english)
+
+---
+
 :new: [2026-06-12] :fire: Metadata-guided training code and reference recipes (FMoW satellite imagery, HPA-WholeHR fluorescence imagery) are now released on the [`FINO`](https://github.com/facebookresearch/dinov3/tree/FINO) branch, accompanying [*Who Needs Labels? Adapting Vision Foundation Models With the Metadata You Already Have*](https://arxiv.org/abs/2606.05107) (Gardès et al., 2026).
 
 [2026-03-10] The [Canopy Height Maps v2 (CHMv2) model](https://arxiv.org/abs/2603.06382) and inference code are now available (more details on downloading the model weights and using the code [here](#canopy-height-maps-v2-chmv2)). The model weights are also available in [Hugging Face Hub](https://huggingface.co/facebook/dinov3-vitl16-chmv2-dpt-head) and [supported](https://github.com/huggingface/transformers/blob/main/docs/source/en/model_doc/chmv2.md) by the Hugging Face [Transformers](https://huggingface.co/docs/transformers/index) library. Building on our original high-resolution canopy height maps released in 2024, CHMv2 delivers substantial improvements in accuracy, detail, and global consistency by leveraging DINOv3.
